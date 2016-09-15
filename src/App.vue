@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="container">
     <div class="item">
-      <img src="./assets/logo.png">
+      <img src="./assets/sssiu_welcome.jpg">
     
-      <h1>{{ msg }}</h1>
+     <!-- <h1>{{ msg }}</h1> -->
     </div>
   </div>
 </template>
@@ -21,6 +21,8 @@ export default {
 <style>
 body {
   font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .container
 {
@@ -31,9 +33,13 @@ body {
 }
 .item
 {
-     background-color: #f3f2ef;
-     border-radius: 3px;
-     width: 200px;
-     height: 200px; 
+    
+     width: 100%;
+     height: 750px; 
+     margin:0;
+}
+img{
+  width: 100%;
+
 }
 </style>
