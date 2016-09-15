@@ -29,14 +29,13 @@ body {
      display: flex;
      align-items: center;
      justify-content: center;
-     height: 100vh;
+    
 }
 .item
 {
     
      width: 100%;
-     height: 750px; 
-     margin:0;
+
 }
 img{
   width: 100%;
